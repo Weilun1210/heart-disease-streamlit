@@ -1,0 +1,4 @@
+Model,Best Parameters,Best CV ROC-AUC
+Logistic Regression,"{'model__C': 10, 'model__class_weight': 'balanced'}",0.513736328125
+SVM,"{'model__C': 100, 'model__gamma': 'scale'}",0.5113984375
+Random Forest,"{'model__max_depth': 10, 'model__min_samples_leaf': 1, 'model__n_estimators': 200}",0.5208833007812499

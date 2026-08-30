@@ -1,0 +1,2 @@
+Reference,Accuracy,Precision,Recall,F1-score,ROC-AUC,PR-AUC
+Always predict No,0.8,0.0,0.0,0.0,0.5,0.2

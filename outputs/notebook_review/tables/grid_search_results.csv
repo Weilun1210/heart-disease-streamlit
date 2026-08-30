@@ -1,0 +1,25 @@
+Model,Parameters,Mean CV ROC-AUC,CV Standard Deviation,Rank
+Logistic Regression,"{'model__C': 0.01, 'model__class_weight': None}",0.51041552734375,0.018522129471190717,7
+Logistic Regression,"{'model__C': 0.01, 'model__class_weight': 'balanced'}",0.5096318359375,0.02419634413375158,8
+Logistic Regression,"{'model__C': 0.1, 'model__class_weight': None}",0.51068115234375,0.021727375979593552,6
+Logistic Regression,"{'model__C': 0.1, 'model__class_weight': 'balanced'}",0.51209033203125,0.022522451082105148,5
+Logistic Regression,"{'model__C': 1, 'model__class_weight': None}",0.51250048828125,0.020918248529637966,4
+Logistic Regression,"{'model__C': 1, 'model__class_weight': 'balanced'}",0.5135468750000001,0.02127733611920345,3
+Logistic Regression,"{'model__C': 10, 'model__class_weight': None}",0.5136958007812501,0.021223202043097952,2
+Logistic Regression,"{'model__C': 10, 'model__class_weight': 'balanced'}",0.513736328125,0.021135353293840118,1
+SVM,"{'model__C': 0.1, 'model__gamma': 'scale'}",0.49951660156249994,0.019019895251213267,7
+SVM,"{'model__C': 0.1, 'model__gamma': 'auto'}",0.5053544921875,0.022755936214941663,3
+SVM,"{'model__C': 1, 'model__gamma': 'scale'}",0.50208935546875,0.016420152815248217,5
+SVM,"{'model__C': 1, 'model__gamma': 'auto'}",0.500939453125,0.019989467732497955,6
+SVM,"{'model__C': 10, 'model__gamma': 'scale'}",0.5038750000000001,0.022633816808369265,4
+SVM,"{'model__C': 10, 'model__gamma': 'auto'}",0.49669042968750005,0.016138287488544026,8
+SVM,"{'model__C': 100, 'model__gamma': 'scale'}",0.5113984375,0.02392100251224428,1
+SVM,"{'model__C': 100, 'model__gamma': 'auto'}",0.5064208984375,0.01997480629551321,2
+Random Forest,"{'model__max_depth': 10, 'model__min_samples_leaf': 1, 'model__n_estimators': 100}",0.51838916015625,0.023816263286955436,3
+Random Forest,"{'model__max_depth': 10, 'model__min_samples_leaf': 1, 'model__n_estimators': 200}",0.5208833007812499,0.024883618563017833,1
+Random Forest,"{'model__max_depth': 10, 'model__min_samples_leaf': 4, 'model__n_estimators': 100}",0.51388232421875,0.024640881301814462,4
+Random Forest,"{'model__max_depth': 10, 'model__min_samples_leaf': 4, 'model__n_estimators': 200}",0.5196279296874999,0.024729078630667253,2
+Random Forest,"{'model__max_depth': 20, 'model__min_samples_leaf': 1, 'model__n_estimators': 100}",0.512802001953125,0.01517540102449219,6
+Random Forest,"{'model__max_depth': 20, 'model__min_samples_leaf': 1, 'model__n_estimators': 200}",0.510660888671875,0.015315669249490358,7
+Random Forest,"{'model__max_depth': 20, 'model__min_samples_leaf': 4, 'model__n_estimators': 100}",0.5076333007812501,0.021343803629102685,8
+Random Forest,"{'model__max_depth': 20, 'model__min_samples_leaf': 4, 'model__n_estimators': 200}",0.5136142578125,0.02395229978688944,5
